@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="PostgreSQL - coffee_machine_v2@localhost" uuid="9c705951-c384-429f-885c-517e42f63022">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>coffee_machine_v2.pg_catalog coffee_machine_v2.public</schema-pattern>
+      <default-schemas>coffee_machine_v2.public</default-schemas>
+    </data-source>
+  </component>
+</project>

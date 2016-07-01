@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+<head>
+    <meta charset="utf-8"/>
+    <title>Museum</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+</head>
+<h:body>
+    <section class="jumbotorn">
+        <div class="container">
+            <div class="row text-center">
+                <h2>COFFEE MACHINE</h2>
+                <h3>We brew the best coffee</h3>
+                <a class="btn btn-primary" href="user/index.xhtml">Take it!</a>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="row">
+            <figure class="col-sm-12">
+                <h:form>
+                <!--<ul>-->
+                    <!--<ui:repeat value="#" var="news">-->
+
+                    <!--</ui:repeat>-->
+                <!--</ul>-->
+                <h:inputText value="#{work_with_users.user_email}" var="login"/>
+                <h:inputText value="#{work_with_users.user_password}" var="password"/>
+                <h:commandButton value="Submit" action="#{work_with_users.registration()}"/>
+                </h:form>
+            </figure>
+        </div>
+    </section>
+    <footer class="container-fluid">
+        <p>2016 Coffee machine</p>
+    </footer>
+</h:body>
+</html>
