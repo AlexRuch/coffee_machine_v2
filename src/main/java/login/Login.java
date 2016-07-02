@@ -13,9 +13,15 @@ import java.io.IOException;
 @RequestScoped
 public class Login {
 
+    public Login(){}
+
+    ExternalContext externalContext = FacesContext.getCurrentInstance().getExternalContext();
     public void logout() throws IOException {
-        ExternalContext ec = FacesContext.getCurrentInstance().getExternalContext();
-        ec.invalidateSession();
-        ec.redirect(ec.getRequestContextPath() + "/index.xhtml");
+        externalContext.invalidateSession();
+        externalContext.redirect(externalContext.getRequestContextPath() + "/index.xhtml");
+    }
+
+    public String current_user_email(){
+       return externalContext.getRemoteUser();
     }
 }

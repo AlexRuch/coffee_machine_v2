@@ -6,6 +6,10 @@
       <element id="directory" name="WEB-INF">
         <element id="directory" name="lib">
           <element id="library" level="project" name="JPA 2.1-JPA 2.1" />
+          <element id="library" level="project" name="JPA 1.0-JPA 1.0" />
+        </element>
+        <element id="directory" name="classes">
+          <element id="jpa-descriptors" facet="CoffeeMachine_v2/jpa/JPA" />
         </element>
       </element>
     </root>

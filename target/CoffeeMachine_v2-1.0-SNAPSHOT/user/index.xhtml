@@ -8,6 +8,7 @@
 <f:view>
     <h:outputLabel value="Hello, world"/>
     <h:form>
+        #{login.current_user_email()}
     <h:commandButton value="Log out" action="#{login.logout()}"/>
     </h:form>
 </f:view>

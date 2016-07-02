@@ -20,9 +20,10 @@ body {
 }
 
 .jumbotorn h3{
-    margin: 0 0 20px;
+    margin:  0 0 60px;
     color: #fff;
     font-size: 35px;
+
 }
 
 footer{
@@ -71,5 +72,4 @@ footer p{
     margin: auto;
     width: 250px;
 }
-
 
