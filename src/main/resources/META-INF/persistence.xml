@@ -6,6 +6,10 @@
     <persistence-unit name="coffee_machine_v2" transaction-type="JTA">
         <jta-data-source>java:/coffee_machine_v2</jta-data-source>
         <class>model.Users_db</class>
+        <class>model.Account_info_db</class>
+        <class>model.User_order_db</class>
+        <class>model.Order_products_db</class>
+        <class>model.Products_db</class>
         <properties>
             <property name="hibernate.hbm2ddl.auto" value="update"/>
         </properties>
